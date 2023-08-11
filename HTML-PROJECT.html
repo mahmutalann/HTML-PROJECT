@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> SOFTWARE MAN </title>
+        <meta charset="UTF-8" />
+        <meta name="keyword" content="website" />
+        <meta name="description" content="about software profile" />
+        <meta name="author" content="Mr. Software" />
+        <style>
+           
+                body{
+                background-image: url(yazilim.png);
+                background-size: 100px;                
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: top right;
+            }
+            p{
+                color: rgba(25, 0, 150, 0,8)
+            }
+            a{
+                text-decoration: none;
+            }
+            div#Student{
+                max-width: 500px; 
+                height: 100px;
+                background: red;
+            }
+            #Deneme {
+                color : #ff4f9f
+            }
+            span{
+                border: 2px; color: red;
+            }
+            #Student10{
+                color: blue;
+            }
+            #Student20{
+                color: black;
+                background-color: red;
+            }
+            #Student30{
+                color:green
+            }
+            #Student40{
+               
+                background-color: blue;
+                border-radius: 10px;
+                border-color: red;
+                border-left-style: solid;
+                border-right-style: dashed;
+                border-top-style: dotted;
+                border-bottom-style: solid;
+                            
+            }
+            table,
+            th,
+            td{
+                border:1px solid rgb(0, 0, 0);
+                border-collapse:collapse ;
+            }
+        </style>
+         <link rel="stylesheet" href="Style.css"/>
+    </head>    
+    <body style="background-color:rgb(255, 255, 255);"> 
+        <form>
+                
+            <label for="name">Name</label> <br>
+            <input type="text" id ="name" name="name" placeholder="Enter Name"><br>
+             <label for="email">E-Mail</label><br>
+             <input type="email" name="email" id="email" placeholder="Enter Surname"><br>
+             <label for="password">Password</label><br>
+             <input type="password" id="password" name="password" placeholder="Enter Password"><br>
+             <label for="date">Date</label> <br>
+             <input type="date" id="date" name="date"><br>
+             Gender <br>
+             Male 
+             <input type="radio" name="gender" value="male"><br>
+             Female 
+             <input type="radio" name="gender" value="female"><br>
+
+             Lessons <br>
+             Mathematic
+             <input type="checkbox" id="math" name="math">
+             Physics
+             <input type="checkbox" id="physics" name="physics">
+             Chemistry
+             <input type="checkbox" id="chemistry" name="chemistry"> 
+            None
+            <input type="checkbox" id="none" name="none" checked><br>
+             <input type="submit" value="Submit" ><br>
+            Degree <br>
+            <select name="degree" id="degree">
+             <option value="Lisans">Lisans</option>
+             <option value="Yüksek Lisans">Yüksek Lisans</option>
+             <option value="Doktora">Doktora</option>
+            </select><br>
+           <textarea name="message" id="" cols="30" rows="10" placeholder="Enter Message"></textarea><br>
+            <button type="submit">Gönder</button>
+            <input type="reset" value="Sil">
+           
+        </form>
+        <h1 style="color: white; font-size: 40;"> <b>Hi Everyone</b>  </h1> 
+        <p style="color: black; font-size: 25;"> <i> Welcome to my page. <br> This page introduced to me.</i></p>
+        <hr style="color: black;">
+        <p> <em>We start!</em> </p>
+        <h1 id="Deneme">Deneme</h1>
+        <a href="#" target="_blank" title="linkedin"> <span>For contact click on the this link</span>  </a>
+        <audio src="" controls autoplay>This connection does not support.</audio>
+        <video src=""></video>
+      
+        <table>
+            <thead>
+            <tr>
+                <th>Öğrenci</th>
+                <th>Okul</th>
+                <th>Fakülte</th>
+                <th>Bölüm</th>
+            </tr>
+        </thead>
+           <tbody>
+             <tr>
+                <td>X Öğrenci</td>
+                <td>A Üniversitesi</td>
+                <td>Mühendislik Fakültesi</td>
+                <td>Yazılım Mühendisliği</td>
+            </tr>
+            <tr>
+                <td>Y Öğrenci</td>
+                <td>B Üniversitesi</td>
+                <td>Meslek Yüksek Okulu</td>
+                <td>Ticaret</td>
+            </tr>
+            <tr>
+                <td>Z Öğrenci</td>
+                <td>C Üniversitesi</td>
+                <td>Tıp Fakültesi</td>
+                <td>Göz Doktorluğu</td>
+            </tr>
+           </tbody>
+           
+        </table>
+        <div id = "Student">Students</div>
+        <ul>
+            <li class="Student1">Student1</li>
+            <li class="Student2">Student2</li>
+            <li class="Student3">Student3</li>
+
+        </ul>
+
+        <div id="Student10">
+        <h1>Student10</h1>
+        <p>Student10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, odio.</p></div>
+        <div id="Student20">
+        <h1>Student20</h1>
+         <p>Student20 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, beatae!</p></div>
+         <div id="Student30">
+         <h1>Student30</h1>
+         <p>Student30 Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illo.</p></div>
+         <div id="Student40">
+         <h1>Student40</h1>
+         <p>Student40 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, debitis.</p></div>
+    </body>
+</html>
